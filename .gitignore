@@ -1,0 +1,32 @@
+# Build directories and CMake artifacts
+out/
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.ninja
+.ninja_*
+
+# Visual Studio local files
+.vs/
+*.user
+*.suo
+*.VC.db
+*.VC.VC.opendb
+x64/
+Debug/
+Release/
+
+# vcpkg local installations
+vcpkg_installed/
+
+# Compiled binaries and objects
+*.exe
+*.obj
+*.o
+*.lib
+*.a
+*.pdb
+*.ilk
